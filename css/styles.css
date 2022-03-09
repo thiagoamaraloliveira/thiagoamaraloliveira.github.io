@@ -80,12 +80,10 @@
 
 #email-container{
     display: flex;
-    justify-content: center;
-}
-
-#email-container ion-icon,
-#email.container a{
-    flex: 1 1 0;
+    justify-content: space-evenly;
+    align-items: center;  
+    max-width: 250px;
+    margin: auto;
 }
 
 #email-container a{
